@@ -143,7 +143,7 @@ const [theme] = useState('dark');
               <div className="flex items-center justify-center">
                 <div className="overflow-hidden rounded-full border border-white/10 bg-white/5 shadow-glow">
                   <img
-                    src="/src/content/WhatsApp Image 2026-07-20 at 2.22.06 AM.jpeg"
+                    src="/src/content/MohamedTaha.jpeg"
                     alt="Mohamed Taha"
                     className="h-28 w-28 object-cover"
                   />
