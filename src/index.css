@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: linear-gradient(135deg, #030b27 0%, #0b1f3a 45%, #1f2f4a 100%);
+  --text: #f8fafc;
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+  --bg: linear-gradient(135deg, #f8fafc 0%, #eef2ff 45%, #e0f2fe 100%);
+  --text: #0f172a;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ── Skill item pop-in animation ── */
+@keyframes skillPopIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) translateY(10px);
+  }
+  70% {
+    transform: scale(1.05) translateY(-2px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* ── Soft glow pulse for skill badges ── */
+@keyframes glowPulse {
+  0%, 100% {
+    box-shadow: 0 0 6px rgba(56, 189, 248, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 18px rgba(56, 189, 248, 0.4);
+  }
+}
+
+/* ── Float / hover lift (already referenced) ── */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
