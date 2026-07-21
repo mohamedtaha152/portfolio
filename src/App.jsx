@@ -142,12 +142,11 @@ const [theme] = useState('dark');
               <div className="absolute -right-10 -top-10 h-28 w-28 rounded-full bg-sky-500/15 blur-2xl" />
               <div className="flex items-center justify-center">
                 <div className="overflow-hidden rounded-full border border-white/10 bg-white/5 shadow-glow">
-                  <img
-                    src="/MohamedTaha.jpeg"
-
-                    alt="Mohamed Taha"
-                    className="h-28 w-28 object-cover"
-                  />
+<img
+  src="/content/MohamedTaha.jpeg"
+  alt="Mohamed Taha"
+  className="h-28 w-28 object-cover"
+/>
                 </div>
               </div>
               <p
@@ -325,7 +324,7 @@ const [theme] = useState('dark');
                   GitHub
                 </a>
                 <a
-                  href="/MohamedTahaCV (1).pdf"
+                  href="/content/MohamedTahaCV (1).pdf"
 
                   className={linkClass(
                     'block rounded-2xl border border-white/10 bg-white/5 px-4 py-3 transition duration-300 hover:-translate-y-0.5 hover:bg-white/10',
