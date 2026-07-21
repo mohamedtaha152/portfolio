@@ -325,11 +325,8 @@ const [theme] = useState('dark');
                   GitHub
                 </a>
                 <a
-<<<<<<< HEAD
                   href="./public/content/MohamedTahaCV (1).pdf"
-=======
-                  href="./src/content/MohamedTahaCV (1).pdf"
->>>>>>> f1f34ca84625eea7475439ae6a99e59aae031f14
+
                   className={linkClass(
                     'block rounded-2xl border border-white/10 bg-white/5 px-4 py-3 transition duration-300 hover:-translate-y-0.5 hover:bg-white/10',
                     'block rounded-2xl border border-slate-200/70 bg-white/70 px-4 py-3 transition duration-300 hover:-translate-y-0.5 hover:bg-white'
